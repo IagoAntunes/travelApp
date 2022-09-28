@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Sistemas\travelapp\build\windows\CMakeFiles\b8a3016e84fbbd33f4ecd85d8036c097\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D29115DB-0082-34F6-8941-6EFA714B1403}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
