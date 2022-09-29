@@ -30,7 +30,7 @@
 ## 🎨 Layout
 
 <div align="center">
- <img alt="Made by tgmarinho" src="https://github.com/IagoAntunes/FashionShop/blob/master/LojaRoupas/LojaRoupas.UWP/Assets/FashionShop.png" width="500">
+ <img alt="Image Layout" src="https://github.com/IagoAntunes/travelApp/blob/master/assets/images/mockup.png" width="500">
 </div>
 
 ## 🛠 Tecnologias
