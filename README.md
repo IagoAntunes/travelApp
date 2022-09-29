@@ -17,7 +17,7 @@
 
 ## 💻 Sobre o projeto
 
- Travell App - É um projeto com objetivo de me desafiar e testar minhas habilidades em desenvolvimento mobile com Flutter. Template e design foram retirados do Figma.
+ Travell App - É um projeto com objetivo de me desafiar e testar minhas habilidades em desenvolvimento mobile com Flutter. Este aplicativo contém duas páginas. Na primeira página o usuário verá a lista de lugares para visitar e na outra página os detalhes dos lugares serão mostrados. Além disso, há transição de rota, herói e animação escalonada enquanto navega para a página de detalhes.
 
 ---
 
