@@ -11,6 +11,9 @@
  <a href="#user-content--licença">Licença</a>
 </p>
 
+<div align="center">
+ <img alt="Image Layout" src="https://github.com/IagoAntunes/travelApp/blob/master/assets/images/cover.png" width="500">
+</div>
 
 ## 💻 Sobre o projeto
 
