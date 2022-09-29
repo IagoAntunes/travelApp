@@ -30,7 +30,7 @@
 ## 🎨 Layout
 
 <div align="center">
- <img alt="Image Layout" src="https://github.com/IagoAntunes/travelApp/blob/master/assets/images/merutower.png" width="500">
+ <img alt="Image Layout" src="https://github.com/IagoAntunes/travelApp/blob/master/assets/images/mockup.png" width="500">
 </div>
 
 ## 🛠 Tecnologias
