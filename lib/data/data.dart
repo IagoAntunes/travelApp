@@ -14,33 +14,73 @@ class Data {
   List<Locals> listaPlaces = [
     Locals(
         name: 'Rinjai Mountain',
+        description:
+            'The mighty Rinjani mountain of Gunung Rinjani is a massive volcano which towers over the island of Lombok. A climb to the top is one of the most exhilarating experiences you can have in Indonesia. At 3,726 meters tall, Gunung Rinjani is the second highest mountain in Indonesia...',
         localization: 'Lombok Indonesia',
         price: '\$48',
-        image: 'assets/images/viagem.png',
+        images: [
+          'assets/images/viagem.png',
+          'assets/images/previewImages/previewum.png',
+          'assets/images/previewImages/previewdois.png',
+          'assets/images/previewImages/previewtres.png',
+          'assets/images/previewImages/previewquatro.png'
+        ],
         isPopular: false),
     Locals(
         name: 'Bromo Mountain',
+        description:
+            'The mighty Rinjani mountain of Gunung Rinjani is a massive volcano which towers over the island of Lombok. A climb to the top is one of the most exhilarating experiences you can have in Indonesia. At 3,726 meters tall, Gunung Rinjani is the second highest mountain in Indonesia...',
         localization: 'East Java, Indonesia',
         price: '\$52',
-        image: 'assets/images/viagemdois.jpg',
+        images: [
+          'assets/images/viagemdois.jpg',
+          'assets/images/previewImages/previewum.png',
+          'assets/images/previewImages/previewdois.png',
+          'assets/images/previewImages/previewtres.png',
+          'assets/images/previewImages/previewquatro.png'
+        ],
         isPopular: false),
     Locals(
         name: 'The Pink Beach',
+        description:
+            'The mighty Rinjani mountain of Gunung Rinjani is a massive volcano which towers over the island of Lombok. A climb to the top is one of the most exhilarating experiences you can have in Indonesia. At 3,726 meters tall, Gunung Rinjani is the second highest mountain in Indonesia...',
         localization: 'Komodo Island, Indonesia',
         price: '\$48',
-        image: 'assets/images/pinkbeach.png',
+        images: [
+          'assets/images/pinkbeach.png',
+          'assets/images/previewImages/previewum.png',
+          'assets/images/previewImages/previewdois.png',
+          'assets/images/previewImages/previewtres.png',
+          'assets/images/previewImages/previewquatro.png'
+        ],
         isPopular: true),
     Locals(
         name: 'Meru Tower',
+        description:
+            'The mighty Rinjani mountain of Gunung Rinjani is a massive volcano which towers over the island of Lombok. A climb to the top is one of the most exhilarating experiences you can have in Indonesia. At 3,726 meters tall, Gunung Rinjani is the second highest mountain in Indonesia...',
         localization: 'Bali, Indonesia',
         price: '\$36',
-        image: 'assets/images/merutower.png',
+        images: [
+          'assets/images/merutower.png',
+          'assets/images/previewImages/previewum.png',
+          'assets/images/previewImages/previewdois.png',
+          'assets/images/previewImages/previewtres.png',
+          'assets/images/previewImages/previewquatro.png'
+        ],
         isPopular: true),
     Locals(
         name: 'Toraja Land',
+        description:
+            'The mighty Rinjani mountain of Gunung Rinjani is a massive volcano which towers over the island of Lombok. A climb to the top is one of the most exhilarating experiences you can have in Indonesia. At 3,726 meters tall, Gunung Rinjani is the second highest mountain in Indonesia...',
         localization: 'South Sulawesi, Indonesia',
         price: '42',
-        image: 'assets/images/torajaland.png',
+        images: [
+          'assets/images/torajaland.png',
+          'assets/images/previewImages/previewum.png',
+          'assets/images/previewImages/previewdois.png',
+          'assets/images/previewImages/previewtres.png',
+          'assets/images/previewImages/previewquatro.png'
+        ],
         isPopular: true),
   ];
 }

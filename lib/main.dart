@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:travelapp/models/categories.dart';
 import 'package:travelapp/models/locals.dart';
+import 'package:travelapp/pages/place_screen.dart';
 
 import 'data/data.dart';
 import 'widgets/listCategories_widget.dart';
 import 'widgets/listPlaces_widget.dart';
+import 'widgets/listPopular_widget.dart';
 
 void main() {
   runApp(const HomeTravel());
@@ -186,7 +188,7 @@ class _HomeTravelState extends State<HomeTravel> {
               ),
               //Menu Popular Destination
               Padding(
-                padding: const EdgeInsets.only(top: 40),
+                padding: const EdgeInsets.only(top: 30),
                 child: Column(
                   children: [
                     Padding(
@@ -220,100 +222,9 @@ class _HomeTravelState extends State<HomeTravel> {
                     Column(
                       children: [
                         SizedBox(
-                            height: 250,
-                            child: ListView.separated(
-                              scrollDirection: Axis.vertical,
-                              shrinkWrap: true,
-                              itemBuilder: ((context, index) {
-                                return Card(
-                                  elevation: 2,
-                                  child: Container(
-                                    padding: const EdgeInsets.all(10),
-                                    decoration: const BoxDecoration(
-                                        borderRadius: BorderRadius.all(
-                                            Radius.circular(10))),
-                                    child: Row(
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: [
-                                          Column(
-                                            children: [
-                                              SizedBox(
-                                                height: 90,
-                                                width: 100,
-                                                child: Image.asset(
-                                                  listPopularPlaces[index]
-                                                      .image,
-                                                  fit: BoxFit.fill,
-                                                ),
-                                              )
-                                            ],
-                                          ),
-                                          Padding(
-                                            padding: const EdgeInsets.all(8.0),
-                                            child: Column(
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.start,
-                                              children: [
-                                                Text(
-                                                  listPopularPlaces[index].name,
-                                                  style: const TextStyle(
-                                                      fontSize: 18,
-                                                      fontWeight:
-                                                          FontWeight.bold),
-                                                ),
-                                                Row(
-                                                  children: [
-                                                    const Icon(
-                                                      Icons.location_on,
-                                                      size: 18,
-                                                      color: Colors.blue,
-                                                    ),
-                                                    Text(
-                                                      listPopularPlaces[index]
-                                                          .localization,
-                                                      style: const TextStyle(
-                                                          color: Colors.blue,
-                                                          fontWeight:
-                                                              FontWeight.w600),
-                                                    ),
-                                                  ],
-                                                ),
-                                                Text(
-                                                  listPopularPlaces[index].name,
-                                                  style: const TextStyle(
-                                                      color: Colors.grey),
-                                                ),
-                                                Row(
-                                                  children: [
-                                                    Text(
-                                                      listPopularPlaces[index]
-                                                          .price,
-                                                      style: const TextStyle(
-                                                          fontSize: 17,
-                                                          fontWeight:
-                                                              FontWeight.bold),
-                                                    ),
-                                                    const Text(
-                                                      ' /Person',
-                                                      style: TextStyle(
-                                                          color: Colors.grey),
-                                                    )
-                                                  ],
-                                                ),
-                                              ],
-                                            ),
-                                          )
-                                        ]),
-                                  ),
-                                );
-                              }),
-                              separatorBuilder: ((context, index) =>
-                                  const SizedBox(
-                                    height: 10,
-                                  )),
-                              itemCount: listPopularPlaces.length,
-                            ))
+                            height: 270,
+                            child: listPopularDestination(
+                                listPopularPlaces: listPopularPlaces))
                       ],
                     )
                   ],
